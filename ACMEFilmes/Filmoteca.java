@@ -24,6 +24,7 @@ public class Filmoteca {
         return null;
     }
 
+    // Novo metodo para consultar por ano de lançamento
     public void consultaPorAnoLancamento(int ano){
         for(int n = 0; n < ((filmes.size()) - 1); n++){
             Filme filme = filmes.get(n);

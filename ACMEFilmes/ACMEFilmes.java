@@ -31,6 +31,7 @@ public class ACMEFilmes {
                 case 2:
                     consultarFilmePeloNome();
                     break;
+                // Opcao de consultar pelo novo método    
                 case 3:
                     consultarPorAno();
                     break;
@@ -81,7 +82,7 @@ public class ACMEFilmes {
             System.out.println("Bilheteria do filme: " + f.getBilheteria());
         }
     }
-
+    // Metodo novo para filtrar por limite de ano de lançamento
     private void consultarPorAno(){
         Scanner teclado = new Scanner(System.in);
         System.out.println("Digite o ano de lançamento limite para a consulta dos filmes: ");
